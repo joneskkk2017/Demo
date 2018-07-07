@@ -8,6 +8,7 @@ public class CookUtils {
 	public static Cookie getCookieByName(String name, Cookie[] cookies) {
 		if (cookies != null) {
 			for (Cookie c : cookies) {
+				system
 				// 通过名称获取
 				if (name.equals(c.getName())) {
 					// 返回
